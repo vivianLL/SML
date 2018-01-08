@@ -12,4 +12,8 @@ main.m 为主文件，结合上述文件中函数功能，读取文件夹中所�
 最终聚类的混合高斯分布参数存储在model.mat文件中。
 mat文件中包含64个高斯分布的μ值，sigma值,和π值。
 
-说明：一个图像块的数据是192维的，为了使得提高程序的运行速率本程序中将数据压缩到30维。
+说明：一个图像块的数据是192维的，为了使得提高程序的运行速率本程序中将数据压缩到30维。 
+
+具体原理详见博客：
+有监督的多类标注（SML）的原理及matlab实现：http://blog.csdn.net/vivian_ll/article/details/79004473
+使用EM算法估计GMM参数的原理及matlab实现：http://blog.csdn.net/vivian_ll/article/details/78793293
